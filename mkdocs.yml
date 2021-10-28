@@ -1,0 +1,141 @@
+site_name: Leverege documentation
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.top
+    - NOnavigation.sections
+    - navigation.indexes
+    - search.highlight
+    - search.share
+    - search.suggest
+nav : 
+  - Home: 
+    - Welcome to Imagine: index.md
+  - Developing in the Leverege Ecosystem:
+    - Introduction: ecosystem/index.md
+    - 1. The Leverege Ecosystem: sadasd
+    - 2. Creating a Project: 
+      - 2.0 Overview: asdsadsad
+      - 2.1 The Client Brief: asdasd
+      - 2.2 Project: ajsdljs
+      - 2.3 Blueprints: sudioasjdkl
+      - 2.4 Networks: skajdla
+      - 2.5 System and Devices: sakdjl
+      - 2.6 Recap : askdj
+    - 3. Backend Development - Data Ingestion: 
+      - 3.0 Overview: sajlkd
+      - 3.1 repo init: sajkdl
+      - 3.2 Server Architecture: klajsdj
+    - 4. Project Design: klasjd
+    - 5. Frontend Development with Molten:
+      - 5.0 Overview: aksjdl
+      - 5.1 Create your first Molten project: kjasld
+      - 5.2 Customize your Molten project: ajsldk
+      - 5.3 Adding an Attribute: dsfgdfsg
+      - 5.4 Manipulating existing attributes: cxvzdfg
+      - 5.5 Enumerations: sadasd
+  - Getting Started:
+      - Installation: getting-started/index.md
+      - Localization: getting-started/i18n.md
+  - Molten:
+    - Overview: 
+      - Startup: 
+        - docs/startup/index.md
+        - Initializers: docs/startup/initializers.md
+        - Support Components: docs/startup/support-components.md
+        - Redux: docs/startup/redux.md
+    - Configuration:
+      - config/index.md
+    - Plugins:
+      - Overview: plugins/index.md
+      - Actions: aslkdjasjkl
+      - Attribute: lkasjdls
+      - AttributeCellRenderer: saiuoqwjedqi
+      - AttributeFormatter: lasjdisaj
+      - BlockerHook: aklsdjaslk
+      - Colorizer: klasjdlsa
+      - DashboardItem: aslkdljalsk
+      - ExportFieldCreator: klasjdlkjasld
+      - FilterModel: asidoisa
+      - GeoPointEditor: iaojsdpoa
+      - HistoryAccumulator: ncoijweofw
+      - ItemCard: oaiscoonqkwdoin
+      - MapBoxLayerRenderer: oasidpojqwd
+      - Model: aopiwopdejq
+      - ModelEditor: asjodinawd
+      - Route: ajiosjdoiqwd
+      - SelectionCard: ajiosdhoiad
+  - Libraries:
+    - API Redux: libraries/api-redux.md
+    - UI Builder: libraries/ui-builder.md
+    - UI Elements: 
+      - Overview: libraries/ui-elements.md
+      - Breadcrumbs: libraries/ui-elements.md
+      - Button: libraries/ui-elements.md
+      - ButtonGroup: libraries/ui-elements.md
+      - Checkbox: libraries/ui-elements.md
+      - Combobox: libraries/ui-elements.md
+      - CompositeTextInput: libraries/ui-elements.md
+      - Content: libraries/ui-elements.md
+      - DataBlock: libraries/ui-elements.md
+      - Test 1: 
+        - Test 2: kasjdlkjsad
+        - Test 3: aklsjdlkasjdla
+    - UI Redux: libraries/ui-redux.md
+    - UI Mapbox Elements: libraries/ui-mapbox-elements.md
+    - UI Active Theme: libraries/ui-active-theme.md
+  - Platform :
+    - API Server: platform/api-server.md
+    - API UI: aklsjdlkasjfkl
+    - Transponder: alksjdlaksjd
+    - Authzserver: kalsdjsalkjd
+    - Reason: klasjdlkjasd
+    - Messenger: aksljdlksja
+    - Emailer: aklsjdlkjasd
+  - API:
+    - api/imagine-api.html
+extra:
+  version: 
+    provider: mike
+extra_javascript:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+
+plugins:
+  - search
+  - awesome-pages
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist
+  - pymdownx.tilde
