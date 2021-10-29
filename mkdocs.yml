@@ -114,11 +114,11 @@ markdown_extensions:
   - footnotes
   - meta
   - md_in_html
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid
+ # - pymdownx.superfences:
+ #     custom_fences:
+ #       - name: mermaid
+ #         class: mermaid
+ #         format: !!python/name:mermaid2.fence_mermaid
   - pymdownx.tabbed:
       alternate_style: true
   - toc:
