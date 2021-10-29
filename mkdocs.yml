@@ -1,7 +1,7 @@
 site_name: Leverege documentation
 theme:
-  name: material
-  custom_dir: overrides
+ # name: material
+ # custom_dir: overrides
   features:
     - navigation.tabs
     - navigation.top
