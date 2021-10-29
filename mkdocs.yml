@@ -1,6 +1,6 @@
 site_name: Leverege documentation
 theme:
-  name: material
+  name: readthedocs
   custom_dir: overrides
   features:
     - navigation.tabs
@@ -104,7 +104,7 @@ extra_javascript:
 
 plugins:
   - search
-  - awesome-pages
+#  - awesome-pages
 
 markdown_extensions:
   - admonition
@@ -119,8 +119,8 @@ markdown_extensions:
  #       - name: mermaid
  #         class: mermaid
  #         format: !!python/name:mermaid2.fence_mermaid
-  - pymdownx.tabbed:
-      alternate_style: true
+ # - pymdownx.tabbed:
+ #     alternate_style: true
   - toc:
       permalink: true
   - pymdownx.arithmatex:
