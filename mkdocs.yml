@@ -125,8 +125,8 @@ markdown_extensions:
       permalink: true
  # - pymdownx.arithmatex:
  #     generic: true
-  - pymdownx.betterem:
-      smart_enable: all
+ # - pymdownx.betterem:
+ #     smart_enable: all
   - pymdownx.caret
   - pymdownx.details
 #  - pymdownx.emoji:
