@@ -1,6 +1,6 @@
 site_name: Leverege documentation
 theme:
-  name: readthedocs
+  name: material
   custom_dir: overrides
   features:
     - navigation.tabs
