@@ -104,7 +104,7 @@ extra_javascript:
 
 plugins:
   - search
-#  - awesome-pages
+  - awesome-pages
 
 markdown_extensions:
   - admonition
@@ -114,28 +114,28 @@ markdown_extensions:
   - footnotes
   - meta
   - md_in_html
- # - pymdownx.superfences:
- #     custom_fences:
- #       - name: mermaid
- #         class: mermaid
- #         format: !!python/name:mermaid2.fence_mermaid
- # - pymdownx.tabbed:
- #     alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+       - name: mermaid
+         class: mermaid
+         format: !!python/name:mermaid2.fence_mermaid
+  - pymdownx.tabbed:
+     alternate_style: true
   - toc:
       permalink: true
- # - pymdownx.arithmatex:
- #     generic: true
- # - pymdownx.betterem:
- #     smart_enable: all
- # - pymdownx.caret
- # - pymdownx.details
-#  - pymdownx.emoji:
-#      emoji_index: !!python/name:materialx.emoji.twemoji
-#      emoji_generator: !!python/name:materialx.emoji.to_svg
- # - pymdownx.highlight
- # - pymdownx.inlinehilite
- # - pymdownx.keys
- # - pymdownx.mark
- # - pymdownx.smartsymbols
- # - pymdownx.tasklist
- # - pymdownx.tilde
+  - pymdownx.arithmatex:
+     generic: true
+  - pymdownx.betterem:
+     smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+     emoji_index: !!python/name:materialx.emoji.twemoji
+     emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist
+  - pymdownx.tilde
